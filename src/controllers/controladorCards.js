@@ -18,7 +18,7 @@ export function pintarProductos(productos) {
     // 2.2 Creando una tarjeta
   
     let tarjeta = document.createElement("div")
-    tarjeta.classList.add ("card", "h-100", "text-center")
+    tarjeta.classList.add ("card", "h-100", "text-center","shadow")
   
     //2.3 Creando la foto
     
@@ -33,7 +33,7 @@ export function pintarProductos(productos) {
     let precioProducto =document.createElement("h2")
   
     precioProducto.classList.add("fw-bold")
-    precioProducto.textContent ='$' +  producto.precio + 'COP'
+    precioProducto.textContent ='$' +  producto.precio + ' COP'
      
    // 2.4 DETECTANDO UN EVENTO
   

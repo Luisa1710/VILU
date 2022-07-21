@@ -1,12 +1,12 @@
 export let productosCategorias= [
-    {nombre: "Base líquida mate Ruby Rose",
+    {nombre: "Base liquida mate Ruby Rose",
      precio: 15000,
      cantidad: 1,
      fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/ROSTRO1_1.png?alt=media&token=68d81a0b-45ce-4945-9bd1-6acd976ee4bc','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/ROSTRO1_2.jpg?alt=media&token=5836b5d8-222b-45d7-98c6-9018d0abcfb0'],
      descripcion: 'Base de maquillaje líquida que se adapta a tu tono de piel. Iguala tu tono exacto y mejora la textura de tu piel',
       categoria:1
     },
-    { nombre: "Base líquida natural look Ruby Rose",
+    { nombre: "Base liquida natural look Ruby Rose",
      precio: 21000,
      cantidad: 2,
      fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS2_1.jpg?alt=media&token=a82bba8c-8eaf-46e0-8d92-88167ab8d8da','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/ROSTRO2_2.jpeg?alt=media&token=bba2cc16-7c8e-4870-8b49-d16810c3995f'],
@@ -22,7 +22,7 @@ export let productosCategorias= [
      categoria: 1
      
     },
-    { nombre: "Corrector líquido feels Ruby Rose",
+    { nombre: "Corrector liquido feels Ruby Rose",
     precio: 15200,
     cantidad: 4,
     fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/ROSTRO4_1.jpg?alt=media&token=cf9181d6-cd48-4059-b7fb-7da9e4509ac6','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/ROSTRO4_2.jpg?alt=media&token=2c34095c-b3da-4446-97d1-3e8fbb445608'],
@@ -72,7 +72,7 @@ export let productosCategorias= [
      categoria: 2
      
     },
-    { nombre: "Delineador líquido blanco de Samy",
+    { nombre: "Delineador liquido blanco de Samy",
      precio: 10000,
      cantidad: 2,
      fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS2_1.jpg?alt=media&token=a82bba8c-8eaf-46e0-8d92-88167ab8d8da','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS2_2.jpg?alt=media&token=f26e2283-fdd6-48c0-9165-a5952b880cc4'],
@@ -80,15 +80,15 @@ export let productosCategorias= [
      categoria: 2
      
     },
-    { nombre: "BROW GEL by Bryka Makeup Gel laminador de cejas orgánicas",
+    { nombre: "BROW GEL by Bryka Makeup Gel laminador de cejas organicas",
      precio: 30000,
      cantidad: 3,
-     fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS3_2.jpg?alt=media&token=cb7d14a8-44bd-42a2-825a-673caab457ca','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS3_1.jpeg?alt=media&token=25993db9-ba7d-454b-8094-60861f60b695'],
+     fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS3_1.jpeg?alt=media&token=25993db9-ba7d-454b-8094-60861f60b695', 'https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS3_2.jpg?alt=media&token=cb7d14a8-44bd-42a2-825a-673caab457ca'],
      descripcion: 'Gel laminador de cejas de fácil aplicación, te permitirá esculpir esas cejas orgánicas',
      categoria: 2
      
     },
-    { nombre: "Lápiz delineador de ojos Sweet Liner Miis Cosmetics",
+    { nombre: "Lapiz delineador de ojos Sweet Liner Miis Cosmetics",
     precio: 8000,
     cantidad: 4,
     fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS4_1.jpeg?alt=media&token=ada13ab7-25a0-44bc-9366-db8d77f4b71f','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS4_2.jpeg?alt=media&token=4d8bb902-f9e5-47d4-b7ac-3a9510f22a8c'],
@@ -167,7 +167,7 @@ export let productosCategorias= [
 { nombre: "Makeup brush cleanser Mua 250 ml",
  precio: 30000,
  cantidad: 6,
- fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/BROCHA6_1.jpg?alt=media&token=47da8b27-5b23-479e-afd3-85c2af2ad7f1','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/BROCHA6_2.jpg?alt=media&token=6a660a4e-5193-4af7-81a0-424738fcdd99'],
+ fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/BROCHA6_1.jpg?alt=media&token=cfcd8614-9471-4afe-bec4-f20bc5a3719b','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/BROCHA6_2.jpg?alt=media&token=ec32b43c-8237-46c2-90b0-84708d01d770'],
  descripcion: 'Rápida limpieza en seco para tus pinceles y brochas',
  categoria: 3
  
@@ -193,7 +193,7 @@ fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com
 descripcion: 'El nuevo labial líquido Feels tiene una alta cobertura y larga duración, agregando un color intenso a tus labios con un acabado cremoso y un aplicador muy suave.',
 categoria: 4
 },
-{ nombre: "Labial líquido mate feels Ruby Rose",
+{ nombre: "Labial liquido mate feels Ruby Rose",
 precio: 12800,
 cantidad: 2,
 fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/LABIOS2_1.jpg?alt=media&token=6c55b1e2-6de7-4e76-a2d5-8d171698f596','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/LABIOS2_2.jpg?alt=media&token=87c94b9e-ffd9-4375-aa21-7ef414bd5fac'],
@@ -236,7 +236,7 @@ fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com
 descripcion: ': Brillo labial con una textura suave que no es pegajosa',
 categoria: 4
 },
-{ nombre: "Lápiz delineador Eye & Lips Ushas",
+{ nombre: "Lapiz delineador Eye & Lips Ushas",
 precio: 9000,
 cantidad: 8,
 fotos:['https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/LABIOS8_1.jpg?alt=media&token=ec3a958d-d01a-42da-980e-8263c570addf','https://firebasestorage.googleapis.com/v0/b/tiendavilu-531fc.appspot.com/o/OJOS8_2.jpg?alt=media&token=25fe8fbd-06af-4f55-bf2a-cfbb32c6ff21'],
