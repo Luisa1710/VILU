@@ -5,7 +5,7 @@ export function pintarProductos(productos) {
   // Es decir la etiqueta padre o etiqueta raiz
   
   let fila = document.getElementById ("fila")
-  
+  fila.innerHTML=""
   // 2.Recorro el arreglo de datos y le aplico traversing
   // El nombre del parametro de la funcion anonima debe llamarse como el arreglo en singular
   productos.forEach(function(producto){
@@ -35,6 +35,10 @@ export function pintarProductos(productos) {
     precioProducto.classList.add("fw-bold")
     precioProducto.textContent ='$' +  producto.precio + ' COP'
      
+
+    let productoDescripcion = document.createElement('p')
+    productoDescripcion.textContent = producto.descripcion
+    productoDescripcion.classList.add("d-none")
    // 2.4 DETECTANDO UN EVENTO
   
    columna.addEventListener("mouseover", function(){
@@ -49,6 +53,7 @@ export function pintarProductos(productos) {
     tarjeta.appendChild(fotoProducto)
     tarjeta.appendChild(nombreProducto)
     tarjeta.appendChild(precioProducto)
+    tarjeta.appendChild(productoDescripcion)
     columna.appendChild(tarjeta)
     fila.appendChild(columna)
   
